@@ -1,1 +1,17 @@
-# prova1
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+	
+<script>
+	.fetch("missatge.txt")
+	.then(resposta => resposta.text())
+	.then(text => console.log(text))
+	.catch(error => console.log(error));
+</script>
+
+</body>
+</html>
